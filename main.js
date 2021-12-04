@@ -7,11 +7,16 @@ function calcSumOfAngles(angles) {
   for (i = 0; i < angles.length; i++) {
     sum += Number(angles[i].value);
   }
-  console.log(sum);
+  return sum;
 }
 
 function isTriangle() {
   const sumOfAngles = calcSumOfAngles(angles);
+  if (sumOfAngles === 180) {
+    output.innerText = "Congratulations ! The angles form a triangle 🥳";
+  } else {
+    output.innerText = "Sorry ! The angles don't form a triangle 😶";
+  }
 }
 
 checkBtn.addEventListener("click", isTriangle);
