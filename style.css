@@ -7,10 +7,33 @@
   background-color: rgb(121, 228, 255);
   font-family: "Fuzzy Bubbles", cursive;
 }
+.no-bullets {
+  list-style: none;
+  padding: 0rem 0.7rem;
+  padding-inline-start: 0px;
+}
+.nav-pills {
+  text-align: right;
+}
+.li-inline {
+  display: inline;
+  padding: 0rem 0.75rem;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+.highlight {
+  color: var(--primary-color);
+  font-weight: bold;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 0.3rem;
+}
 
 h1 {
-    text-align: center;
-  }
+  text-align: center;
+}
 
 label,
 p {
@@ -29,8 +52,8 @@ input {
   border-radius: 1rem;
   border-color: orangered;
 }
-label input{
-    /* display: inline; */
+label input {
+  /* display: inline; */
 }
 button {
   font-size: medium;
