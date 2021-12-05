@@ -14,7 +14,7 @@ function calcScore() {
     }
     i += 1;
   }
-  console.log(score);
+  output.innerText = "Your score is " + score;
 }
 
 submitBtn.addEventListener("click", calcScore);
