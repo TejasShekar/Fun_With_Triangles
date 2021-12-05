@@ -11,11 +11,15 @@ function calcSumOfAngles(angles) {
 }
 
 function isTriangle() {
-  const sumOfAngles = calcSumOfAngles(angles);
-  if (sumOfAngles === 180) {
-    output.innerText = "Congratulations ! The angles form a triangle 🥳";
+  if (angles.value) {
+    const sumOfAngles = calcSumOfAngles(angles);
+    if (sumOfAngles === 180) {
+      output.innerText = "Congratulations ! The angles form a triangle 🥳";
+    } else {
+      output.innerText = "Sorry ! The angles don't form a triangle 😶";
+    }
   } else {
-    output.innerText = "Sorry ! The angles don't form a triangle 😶";
+    output.innerText = "Please enter all three angles !";
   }
 }
 

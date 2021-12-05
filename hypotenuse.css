@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(121, 228, 255);
+  font-family: "Fuzzy Bubbles", cursive;
+}
+.no-bullets {
+  list-style: none;
+  padding: 0rem 0.7rem;
+  padding-inline-start: 0px;
+}
+.nav-pills {
+  text-align: left;
+  background-color: coral;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.li-inline {
+  display: inline;
+  padding: 0rem 0.75rem;
+  background-color: coral;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+.highlight {
+  color: var(--primary-color);
+  font-weight: bold;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 0.3rem;
+}
+
+h1, p {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+/*page specific css from here*/
+
+label {
+  width: 100%;
+  display: block;
+  margin: 1rem auto;
+  text-align: center;
+  font-size: larger;
+}
+
+input{
+  text-align: center;
+  border-radius: 1rem;
+  font-size: large;
+}
+
+p{
+  font-size: larger;
+}
+
+#calc-btn {
+  font-size: large;
+  display: block;
+  margin: auto;
+  padding: 0.2rem 1rem;
+  border-radius: 1rem;
+}
+
+#output{
+  text-align: center;
+  margin: 1rem auto;
+  font-size: large;
+  background-color: coral;
+}
+/*ends here*/
+
+footer {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  background-color: coral;
+}

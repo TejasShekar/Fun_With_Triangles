@@ -36,9 +36,10 @@
   padding: 0.3rem;
 }
 
-h1, p {
+h1,
+p {
   text-align: center;
-  margin: 1rem auto;
+  margin: 2rem auto;
 }
 
 /*page specific css from here*/
@@ -51,7 +52,7 @@ label {
   font-size: larger;
 }
 
-p{
+p {
   font-size: larger;
 }
 
@@ -61,16 +62,17 @@ p{
   margin: auto;
   padding: 0.2rem 1rem;
   border-radius: 1rem;
+  border-color: coral;
 }
 
-#output{
+#output {
   text-align: center;
   margin: 1rem auto;
   font-size: large;
   background-color: coral;
 }
 
-.angles{
+.angles {
   text-align: center;
   border-radius: 1rem;
   font-size: large;
