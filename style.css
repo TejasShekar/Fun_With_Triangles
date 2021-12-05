@@ -13,11 +13,16 @@
   padding-inline-start: 0px;
 }
 .nav-pills {
-  text-align: right;
+  text-align: left;
+  background-color: coral;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 .li-inline {
   display: inline;
   padding: 0rem 0.75rem;
+  background-color: coral;
 }
 .link {
   color: white;
@@ -31,37 +36,46 @@
   padding: 0.3rem;
 }
 
-h1 {
+h1, p {
   text-align: center;
+  margin: 1rem auto;
 }
 
-label,
-p {
+/*page specific css from here*/
+
+label {
   width: 100%;
   display: block;
   margin: 1rem auto;
   text-align: center;
+  font-size: larger;
+}
+
+p{
+  font-size: larger;
+}
+
+#check-btn {
   font-size: large;
-}
-input {
-  width: 70%;
-  display: block;
-  margin: 1rem auto;
-  padding: 0.3rem;
-  text-align: center;
-  border-radius: 1rem;
-  border-color: orangered;
-}
-label input {
-  /* display: inline; */
-}
-button {
-  font-size: medium;
   display: block;
   margin: auto;
   padding: 0.2rem 1rem;
   border-radius: 1rem;
 }
+
+#output{
+  text-align: center;
+  margin: 1rem auto;
+  font-size: large;
+  background-color: coral;
+}
+
+.angles{
+  text-align: center;
+  border-radius: 1rem;
+  font-size: large;
+}
+/*ends here*/
 
 footer {
   text-align: center;
@@ -70,5 +84,7 @@ footer {
 
 a {
   text-decoration: none;
-  color: goldenrod;
+  color: white;
+  font-size: larger;
+  background-color: coral;
 }
