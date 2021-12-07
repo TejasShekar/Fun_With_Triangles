@@ -24,10 +24,7 @@
   padding: 0rem 0.75rem;
   background-color: coral;
 }
-.link {
-  color: white;
-  text-decoration: none;
-}
+
 .highlight {
   color: var(--primary-color);
   font-weight: bold;
@@ -75,7 +72,15 @@ footer {
   padding-top: 2rem;
 }
 
-a {
+#portfolio{
+  text-decoration: none;
+color: goldenrod;
+font-size: medium;
+font-weight: bold;
+background-color: none;
+}
+
+li a {
   text-decoration: none;
   color: white;
   font-size: larger;

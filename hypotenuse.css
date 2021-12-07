@@ -24,10 +24,7 @@
   padding: 0rem 0.75rem;
   background-color: coral;
 }
-.link {
-  color: white;
-  text-decoration: none;
-}
+
 .highlight {
   color: var(--primary-color);
   font-weight: bold;
@@ -36,7 +33,8 @@
   padding: 0.3rem;
 }
 
-h1, p {
+h1,
+p {
   text-align: center;
   margin: 1rem auto;
 }
@@ -51,13 +49,13 @@ label {
   font-size: larger;
 }
 
-input{
+input {
   text-align: center;
   border-radius: 1rem;
   font-size: large;
 }
 
-p{
+p {
   font-size: larger;
 }
 
@@ -70,7 +68,7 @@ p{
   border-color: coral;
 }
 
-#output{
+#output {
   text-align: center;
   margin: 1rem auto;
   font-size: large;
@@ -83,7 +81,15 @@ footer {
   padding-top: 2rem;
 }
 
-a {
+#portfolio {
+  text-decoration: none;
+  color: goldenrod;
+  font-size: medium;
+  font-weight: bold;
+  background-color: none;
+}
+
+li a {
   text-decoration: none;
   color: white;
   font-size: larger;
