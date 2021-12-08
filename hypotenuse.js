@@ -4,13 +4,13 @@ const calcBtn = document.querySelector("#calc-btn");
 const output = document.querySelector("#output");
 
 function calcHypotenuse() {
-  if(a.value&&b.value){
+  if(Number(a.value) > 0 && Number(b.value) > 0){
     const sum = a.value * a.value + b.value * b.value;
   let hypotenuse = (Math.sqrt(sum));
   hypotenuse = hypotenuse.toFixed(1);
   output.innerText = "The hypotenuse of the triangle is " + hypotenuse + " cm";
   }else{
-    output.innerText = "Please enter the sides of the triangle !";
+    output.innerText = "Invalid inputs";
   }
 }
 
