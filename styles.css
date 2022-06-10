@@ -7,11 +7,13 @@
   background-color: rgb(121, 228, 255);
   font-family: "Fuzzy Bubbles", cursive;
 }
+
 .no-bullets {
   list-style: none;
   padding: 0rem 0.7rem;
   padding-inline-start: 0px;
 }
+
 .nav-pills {
   text-align: left;
   background-color: coral;
@@ -19,6 +21,7 @@
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
+
 .li-inline {
   display: inline;
   padding: 0rem 0.75rem;
@@ -33,12 +36,11 @@
   padding: 0.3rem;
 }
 
-h1, p {
+h1,
+p {
   text-align: center;
   margin: 1rem auto;
 }
-
-/*page specific css from here*/
 
 label {
   width: 100%;
@@ -48,32 +50,22 @@ label {
   font-size: larger;
 }
 
-input{
+input {
   text-align: center;
   border-radius: 1rem;
   font-size: large;
 }
 
-p{
+p {
   font-size: larger;
 }
 
-#calc-btn {
-  font-size: large;
-  display: block;
-  margin: auto;
-  padding: 0.2rem 1rem;
-  border-radius: 1rem;
-  border-color: coral;
-}
-
-#output{
+#output {
   text-align: center;
   margin: 1rem auto;
   font-size: large;
   background-color: coral;
 }
-/*ends here*/
 
 footer {
   text-align: center;
@@ -81,12 +73,12 @@ footer {
   font-weight: bold;
 }
 
-#portfolio{
+#portfolio {
   text-decoration: none;
-color: goldenrod;
-font-size: medium;
-font-weight: bold;
-background-color: none;
+  color: goldenrod;
+  font-size: medium;
+  font-weight: bold;
+  background-color: none;
 }
 
 li a {

@@ -1,0 +1,19 @@
+h1,
+p {
+  margin: 2rem auto;
+}
+
+#check-btn {
+  font-size: large;
+  display: block;
+  margin: auto;
+  padding: 0.2rem 1rem;
+  border-radius: 1rem;
+  border-color: coral;
+}
+
+.angles {
+  text-align: center;
+  border-radius: 1rem;
+  font-size: large;
+}

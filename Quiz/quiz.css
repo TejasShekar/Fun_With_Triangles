@@ -1,0 +1,22 @@
+label {
+  margin: 0.5rem;
+  font-size: larger;
+}
+
+input {
+  margin: auto 1rem;
+}
+
+p {
+  margin: 1rem;
+  font-size: larger;
+}
+
+#submit-btn {
+  font-size: large;
+  display: block;
+  margin: 1rem auto;
+  padding: 0.2rem 1rem;
+  border-radius: 1rem;
+  border-color: coral;
+}
